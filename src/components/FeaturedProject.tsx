@@ -14,7 +14,7 @@ const images = [
   '/ticketpass8.png',
   '/ticketpass9.png',
   '/ticketpass10.png',
-  '/ticketpass11png',
+  '/ticketpass11.png',
 
 ]
 
