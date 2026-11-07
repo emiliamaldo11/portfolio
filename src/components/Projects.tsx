@@ -2,6 +2,14 @@ import { ExternalLink } from 'lucide-react'
 
 const projects = [
   {
+    name: 'Helados La Feliz',
+    description:
+      'Maqueta de una heladería de Mar del Plata con sabores en tarjetas, filtros y un pedido en 3 pasos que se envía por WhatsApp.',
+    tags: ['React', 'Tailwind CSS', 'Vite'],
+    url: 'https://helados-la-feliz.vercel.app/#sabores',
+    accent: 'bg-ink',
+  },
+  {
     name: 'TicketPass',
     description:
       'Compra de entradas a eventos musicales con autenticación y panel administrativo para gestión de recintos y asientos.',
@@ -31,7 +39,7 @@ export default function Projects() {
           la interfaz hasta la integración con datos reales.
         </p>
 
-        <div className="mt-10 grid gap-6 sm:grid-cols-2">
+        <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {projects.map((project) => (
             <a
               key={project.name}
