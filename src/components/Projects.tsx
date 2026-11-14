@@ -25,6 +25,14 @@ const projects = [
     url: 'https://github.com/emiliamaldo11/e-commerce',
     accent: 'bg-butter',
   },
+  {
+    name: 'Carta Cafeteria',
+    description:
+    'Pagina Web con carta de cafeteria y pedidos Take Away',
+    tags: ['HTML'],
+    url: 'https://carta-lemon-seven.vercel.app/',
+    accent: 'bg-ink',
+  },
 ]
 
 export default function Projects() {
