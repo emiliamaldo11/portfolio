@@ -31,7 +31,7 @@ const projects = [
     'Pagina Web con carta de cafeteria y pedidos Take Away',
     tags: ['HTML'],
     url: 'https://carta-lemon-seven.vercel.app/',
-    accent: 'bg-ink',
+    accent: 'bg-coral',
   },
 ]
 
